@@ -29,8 +29,15 @@ img {
   margin: 0;
 }
 
-@media only screen (min-width: 25em) {
+@media only screen and (min-width: 25em) {
 
+.dino {
+
+}
+
+.dino-wrap {
+
+}
 
 }
 
@@ -49,6 +56,10 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
+.dino {
+  width: 100%;
+}
 
 .dino-wrap {
   display: flex;
